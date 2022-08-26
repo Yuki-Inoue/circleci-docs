@@ -21,7 +21,7 @@ To use CircleCI with GitHub you need to connect your GitHub account. When you ad
 - A deploy key that is used to check out your project from GitHub.
 - A service hook (or "push hook") that is used to notify CircleCI when you push to GitHub.
 
-CircleCI builds push hooks by default. So, builds are triggered for all push hooks for the repository and PUSH is the most common case of triggering a build.
+CircleCI builds on push hooks by default. So, builds are triggered for all push hooks for the repository and PUSH is the most common case of triggering a build.
 
 There are some additional, less common cases where CircleCI uses hooks, as follows:
 
